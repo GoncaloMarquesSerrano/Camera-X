@@ -47,6 +47,7 @@ dependencies {
 
 
 
+    implementation(libs.androidx.camera.camera2.pipe)
     // CameraX core library using the camera2 implementation
     val cameraxVersion = "1.5.1"
     // The following line is optional, as the core library is included indirectly by camera-camera2
